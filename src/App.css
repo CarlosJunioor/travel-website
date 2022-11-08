@@ -17,20 +17,20 @@
   }
   
   .services {
-    background-image: url('./assets/images/img-2.jpg');
+    background-image: url('https://static.todamateria.com.br/upload/ev/ol/evolucaodosmodelosatomicos-cke.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    color: #fff;
+    color: black;
     font-size: 100px;
   }
   
   .products {
-    background-image: url('./assets/images/img-1.jpg');
+    background-image: url('https://www.netmundi.org/filosofia/wp-content/uploads/2014/09/escola-de-atenas-plat%C3%A3o-arist%C3%B3teles-1-620x264.jpg');
     background-position: center;
     background-size: fill;
     background-repeat: no-repeat;
-    color: #fff;
+    color: black;
     font-size: 100px;
   }
   
@@ -42,3 +42,25 @@
     color: #fff;
     font-size: 100px;
   }
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  html {
+    scroll-behavior: smooth;
+   }
+   
+   a {
+    text-decoration: none;
+    color: black;
+   } 
+   
+   .button-color {
+
+    color: yellow;
+  
+   }

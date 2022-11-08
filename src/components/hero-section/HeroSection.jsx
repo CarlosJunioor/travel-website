@@ -16,8 +16,10 @@ const HeroSection = () => {
                 className='btns' 
                 buttonStyle='btn--outline' 
                 buttonSize='btn--large'
+                onClick="#down"
+                
             >
-                Learn
+                <a href="#down" class="button-color">APRENDA</a>
             </Button>
             <Button 
                 className='btns' 
@@ -26,6 +28,7 @@ const HeroSection = () => {
             >
                 ASSISTA AO TRAILER <i className='far fa-play-circle' /> 
             </Button>
+            
         </div>
     </div>
   )

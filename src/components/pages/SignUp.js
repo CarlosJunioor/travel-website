@@ -1,6 +1,12 @@
 import React from "react";
 import '../../App.css';
+import YoutubeEmbed from "../video/YoutubeEmbed";
 
 export default function SignUp() {
-    return <h1 className='sign-up'>SIGN UP</h1>
+    return(
+        <>
+        
+        <YoutubeEmbed embedId="1HJq1QsCudw" />
+        </>
+    ) 
 }
